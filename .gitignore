@@ -1,0 +1,79 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 后端实例和日志文件
+backend/instance/
+backend/logs/
+backend/uploads/
+
+# 前端构建和缓存文件
+frontend/.next/
+frontend/node_modules/
+frontend/.npm
+frontend/.eslintcache
+
+# 图表和测试文件
+charts/
+tests/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# 文档文件
+docs/
+*.md
+!README.md
+
+# 数据集文件（保留核心数据集）
+datasets/raw/
+datasets/*.csv
+!datasets/training_dataset_*.csv
+!datasets/converted_blte_features.csv
+
+# 临时文件和其他
+ter
+.cursor/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 测试和开发文件
+test_*.py
+*_test.py
+quick_test.*
+api_test_report.md
+main_dataset_analysis_report.md
+real_data_test_summary.md
+*.html
+image.png
+create_task.json
+app.py
+set_token.html
+
+# 原型和设计文件
+yuanxing/
+
+# 中文文档
+*技术文档.md
+CLAUDE.md
